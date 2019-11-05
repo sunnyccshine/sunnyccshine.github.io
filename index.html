@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>中国新能源网</title>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome -->     
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
+<!-- meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //meta tags -->
+<!--fonts-->
+<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!--//fonts-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- Required-js -->
+
+<!-- main slider-banner -->
+<script src="js/skdslider.min.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+						
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+			
+		});
+</script>	
+<!-- //main slider-banner --> 
+
+<!-- scriptfor smooth drop down-nav -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //script for smooth drop down-nav -->
+</head>
+<body>
+<!-- header -->
+	<header>
+		<div class="w3layouts-top-strip">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="index.html"><span>中国 </span>新能源网</a></h1>
+				</div>
+				<div class="w3ls-social-icons">
+					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+					<a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
+					<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="agileits-contact-info text-right">
+					<ul>
+						<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">sxcshine@mail.sdu.edu.cn</a></li>
+						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 201600121147_H_孙晓聪 </li>
+					</ul>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+		<!-- navigation -->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li><a class="active" href="index.html">主页</a></li>
+					<li><a href="taiyangneng.html">太阳能</a></li>
+					<li><a href="fengneng.html">风能</a></li>
+					<li><a href="shengwuzhineng.html">生物质能</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">信息查询 <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+					  <li><a href="yjdt.html">研究动态</a></li>
+						<li><a href="cyxx.html">产业信息</a></li>
+                        <li><a href="zcfg.html">政策法规</a></li>
+						
+					  </ul>
+					</li>
+					<li><a href="contact.html">联系我们</a></li>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		<!-- //navigation -->
+	</header>
+	<!-- //header -->
+	<!-- top-header and slider -->
+	<div class="w3-slider">	
+	<!-- main-slider -->
+		<ul id="demo1">
+			<li>
+				<img src="images/1.jpg" alt="" />
+				<!--Slider Description example-->
+				<div class="slide-desc">
+					<h3>太阳能发电</h3>
+					<p>太阳能电池板是将太阳辐射能通过光电效应或者光化学效应直接或间接转换成电能的装置。 </p>
+				</div>
+			</li>
+			<li>
+            <img src="images/3.jpg" alt="" width="1280" height="720" />
+			  <div class="slide-desc">
+			    <h3>风力发电</h3>
+					<p>把风的动能转变成机械动能，再把机械能转化为电力动能，这就是风力发电。 </p>
+			  </div>
+		  </li>
+			<li>
+				<img src="images/4.jpg" alt="" width="1280" height="720" />
+				<div class="slide-desc">
+				  <h3>生物质能 </h3>
+					<p>生物质能发电主要利用农业、林业和工业废弃物、甚至城市垃圾为原料， 采取直接燃烧或气化等方式发电。 </p>
+			  </div>
+		  </li>
+	  </ul>
+</div>
+	<!-- //main-slider -->
+	<!-- //top-header and slider -->
+	<!-- Specialize-section -->
+			<section class="w3-about text-center">
+				<div class="container">
+					<h2 class="w3ls_head">欢迎</h2>
+					<p class="para">中国新能源信息网始终关注新能源行业发展动态，力求打造全球最大的能源信息门户。</p>
+					<p class="para">在这里，你可以查看下列信息：</p>
+					<div class="col-md-4 w3l-abt-grid">
+						<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+							<a href="#" class="hi-icon icon1"><i class="fa fa-cog" aria-hidden="true"></i></a>
+						</div>
+						<h4>研究动态</h4>
+						<p>&nbsp;</p>
+					</div>
+					<div class="col-md-4 w3l-abt-grid">
+						<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+							<a href="#" class="hi-icon icon2"><i class="fa fa-sun-o" aria-hidden="true"></i></a>
+						</div>
+						<h4>产业信息</h4>
+						<p>&nbsp;</p>
+					</div>
+					<div class="col-md-4 w3l-abt-grid">
+						<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+							<a href="#" class="hi-icon icon3"><i class="fa fa-gift" aria-hidden="true"></i></i></a>
+						</div>
+						<h4>政策法规					</h4>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section><div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	<!-- //Specialize-section -->
+		<!--advantage-->
+				<div class="what-w3ls">
+					<div class="container">
+						<h3 class="w3ls_head">新能源<span>产业介绍</span></h3>
+						<div class="what-grids">
+							<div class="col-md-6 what-grid">
+							<div class="list-img">
+								<img src="images/5.jpg" class="img-responsive" alt=""/>
+								<div class="textbox"></div>
+								</div>
+							</div>
+							<div class="col-md-6 what-grid1">
+								<div class="what-top">
+									<div class="what-left">
+										<p><i class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></i></p>
+									</div>
+								  <div class="what-right">
+									<h4>太阳能</h4>
+中国蕴藏着丰富的太阳能资源，太阳能利用前景广阔。目前，中国太阳能产业规模已位居世界第一，是全球太阳能热水器生产量和使用量最大的国家和重要的太阳能光伏电池生产国。中国比较成熟太阳能产品有两项：太阳能光伏发电系统和太阳能热水系统。									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="what-top1">
+									<div class="what-left">
+										<p>&nbsp;</p>
+										<p><i class="glyphicon glyphicon-flash" aria-hidden="true"></i></p>
+									</div>
+									<div class="what-right">
+										<h4>风能</h4>
+										<div label-module="para">我国风能潜力的估算如下： 风能理论可开发总量（R），全国为32.26亿千瓦，实际可开发利用量（R&rsquo;），按总量的 l/ 10估计，并考虑到风轮实际扫掠面积为计算气流正方形面积的 0．785倍〔1米直径风轮面积为0.785（平方米）〕，故实际可开发量为： R&rsquo;=0.785R÷10=2.53（亿千瓦）。中国属于能源进口大国，利用可再生能源是当务之急，特别是在中国风资源丰富的广大的农村地区，中国政府应加大对风电设备的购买补贴，如果全国农村家用电能做到一半自给，能可以节约电能每年20亿度以上 。</div>
+									  <div></div>
+									<div label-module="para-title"></div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="what-top1">
+									<div class="what-left">
+										<p>&nbsp;</p>
+										<p>&nbsp;</p>
+										<p><i class="glyphicon glyphicon-fire" aria-hidden="true"></i></p>
+									</div>
+								  <div class="what-right">
+									<h4>生物质能</h4>
+									  <div label-module="para">我国拥有丰富的生物质能资源，据测算，我国理论生物质能资源为50亿吨左右标准煤，是中国总能耗的4倍左右。在可收集的条件下，我国可利用的生物质能资源主要是传统生物质，包括农作物秸秆、薪柴、禽畜粪便、生活垃圾、工业有机废渣与废水等。农业产出物的51%转化为秸秆，年产约6亿吨，约3亿吨可作为燃料使用，折合1.5亿吨标准煤；林业废弃物年可获得量约9亿吨，约3亿吨可能源化利用，折合2亿吨标准煤。甜高粱、小桐子、黄连木、油桐等能源作物可种植面积达2000多万公顷，可满足年产量约5000万吨生物液体燃料的原料需求。畜禽养殖和工业有机废水理论上可年产沼气约800亿立方米。									</div>
+								  </div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+					</div>
+				</div>
+			<!--advantage-->
+	<!--//stats-->
+	<div class="agileinfo-work-top">
+		<div class="container">
+			<div class="w3-agileits-rides-heading">
+				<h3 class="w3ls_head">今日 <span>新闻</span></h3>
+			</div>
+			
+			<div class="agileits-w3layouts-rides-grids">
+				<div class="col-sm-4 rides-grid">
+					<div class="agileinfo-work">
+					<div class="list-img">
+						<img src="images/g1.jpg" class="img-responsive" alt="">
+						<div class="textbox"></div>
+						</div>
+						<h4>太阳能						</h4>
+						<ul>
+						  <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">光伏电站隐患要早洞察</a></li> 
+                          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">青海省瞄准2016年新能源目标达7.1GW</a></li> 
+                           <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">瑞典IceHotel计划建永久太阳能旅馆</a></li> 
+                            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">SPI绿能宝宣布获得4000万美元私募融资</a></li> 
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4 rides-grid">
+					<div class="agileinfo-work">
+					<div class="list-img">
+						<img src="images/g2.jpg" class="img-responsive" alt="">
+						<div class="textbox"></div>
+					  </div>
+					  <h4>风能</h4>
+						<ul>
+							  <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">风电投资聚焦“一带一路”沿线国家</a></li> 
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">我国海上风电发展仍处于初期</a></li> 
+                                  <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">考验中国能源领导者的最大问题：创新和低碳能源市场转型</a></li>   
+                                  <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">新能源契机：中荷能源合作聚焦海上风电</a></li> 
+          
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4 rides-grid">
+					<div class="agileinfo-work">
+					<div class="list-img">
+						<img src="images/g3.jpg" class="img-responsive" alt="">
+						<div class="textbox"></div>
+					</div>
+					  <h4>生物质能</h4>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">固体生物质是未来碳中性能源组合的基石</a></li> 
+                            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">一期投资3.6亿 光大国际平度垃圾发电项目投运</a></li> 
+                            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">生物质能源怎样跑赢新能源时代？</a></li> 
+                            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">以禁促用 为秸秆利用找出路</a></li> 
+				</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- footer -->
+	<div class="footer-top">
+		<div class="container">
+			<div class="col-md-3 w3ls-footer-top">
+				<h3>快速访问</h3>
+					<ul>
+							<li><a href="index.html">主页</a></li>
+							<li><a href="fengneng.html">风能</a></li>
+							<li><a href="taiyangneng.html">太阳能</a></li>
+							<li><a 
+href="shengwuzhineng.html">生物质能</a></li>
+							<li><a 
+href="contact.html">联系我们</a></li>
+						</ul>
+			</div>
+			<div class="col-md-4 wthree-footer-top">
+				<h3>地址信息</h3>
+				<ul>
+				  <li><span class="glyphicon glyphicon-home" aria-hidden="true"></span>山东省济南市市中区二环东路12550号山东大学兴隆山校区</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>sxcshine@mail.sdu.edu.cn</li>
+					<li></li>
+			    </ul>
+			</div>    
+            
+<!-- //Contact -->
+	<div class="contact" id="contact">
+		<div class="col-md-3">
+			<h3 class="tittle"> 联系我们</h3>
+			<div class="contact-grid1">
+					<div class="contact-top1">
+						<form action="#" method="post">
+							<div class="form-group">
+							  <label>姓名*</label>
+								<input type="text" name="Name" placeholder="Name" required>
+							</div>
+						  <div class="form-group">
+								<label><strong>E-mail</strong>*</label>
+								<input type="email" name="E-mail" placeholder="E-mail" required>
+						  </div>
+							<div class="form-group">
+								<label>手机*</label>
+								<input type="text" name="number" placeholder="Phone Number" required>
+							</div>
+							<div class="form-group">
+								<label>留言*</label>
+									<textarea placeholder name="Message"></textarea>
+							</div>
+								<input type="submit" value="Send">
+						</form>
+					</div>
+				</div>
+		</div>
+	</div>
+	<!---<div class="google-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555"></iframe>
+	</div>--->
+<!-- //Contact -->
+			
+		  <div class="clearfix"></div>
+			<div class="footer-w3layouts">
+				<div class="agile-copy">
+					<p>Copyright &copy; 2019.孙晓聪 All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- //footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+</body>
+</html>
